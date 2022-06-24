@@ -28,20 +28,15 @@
         "value": "True",
         "required": true
       },
-      "PRIVATE_BOT_MODE": {
-        "description": "Set it True, If you want your bot to be private for authorized chats. Else leave it blank",
-        "value": "",
-        "required": false
-      },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
-        "description": "Mongo DB URL",
+        "description": "Get a mongodb url from https://cloud.mongodb.com . You can leave it blank if you want , bot will use Yukki's database for you.",
         "value": "",
-        "required": true
+        "required": false
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
@@ -75,11 +70,11 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/TeamYukki/YukkiMusicBot",
+        "value": "https://github.com/FUCKTHEATTITUDE/Y2K",
         "required": true
       },
       "UPSTREAM_BRANCH": {
-        "description": "Repo's Branch Name",
+        "description": "Upstream Repo's Branch Name",
         "value": "master",
         "required": true
       }
